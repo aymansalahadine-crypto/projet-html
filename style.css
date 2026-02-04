@@ -6,6 +6,13 @@
   margin-right: 5%;
 
 }
+li{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+}
 .img-logo img{
     width: 15px;
     height: 25px;
@@ -17,12 +24,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .login{
   border: 3px solid rgba(13, 12, 12, 0.874);
-  width: 50%;
-  height: 70%;
+  width: 70%;
+  height: 50%;
   background-color: rgb(243, 253, 253);
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgb(13, 13, 14);
@@ -103,30 +109,28 @@ button.red {
 }
 
 .shortcuts {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0;
+  text-align: left;
+
 }
 
 .shortcuts div {
   padding: 10px;
   border-radius: 12px;
   font-size: 12px;
-  text-align: center;
+    gap: 40px;
+}
+.shortcuts ul li {
+  background-color: #f9f9f9;
+  display: inline-block;
+  list-style: none;
+  line-height: 5px;
+  margin: 0 auto;
 }
 .shortcuts img{
-     width: 55px;
-     height: 55px;
+  margin: 7px;
+     width: 60px;
+     height: 50px;
       border-radius: 18px;
-  
-}
-
-.destination {
-  background: white;
-  padding: 15px;
-  border-radius: 15px;
-  margin-bottom: 15px;
-  font-weight: bold;
 }
 .history .item {
   background: white;
@@ -154,7 +158,7 @@ button.red {
     margin-bottom: 3%;
 }
 .white-btn{
-    background-color: rgb(228, 228, 226);
+    background-color: rgb(243, 243, 233);
   border: 2px solid rgb(216, 216, 215) ;
   border-radius: 15px;
   padding: 10px;
