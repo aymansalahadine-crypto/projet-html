@@ -4,14 +4,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
+  margin-right: 5%;
 
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
+  
   padding: 0;
   width: 50%;
-  background: #0964ec;
+  background: #dfe2e5;
   padding: 15px; 
 }
 .header {
@@ -127,6 +129,7 @@ button.red {
 .history small {
   float: right;
   color: gray;
+  display: block ;
 }
 .section-content{
     display: flex;
